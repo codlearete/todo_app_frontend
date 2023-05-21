@@ -15,9 +15,10 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+
+  "homepage": "https://codlearete.github.io/todo_app_frontend",
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://codlearete.github.io/todo_app_frontend/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
