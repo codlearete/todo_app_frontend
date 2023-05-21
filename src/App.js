@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
-import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 const App = () => {
   const initialState = JSON.parse(localStorage.getItem('todos')) || [];
